@@ -10,7 +10,7 @@ import backend.backend.service.CartService;
 
 @RestController
 @RequestMapping("/api/carts")
-@CrossOrigin(origins = "https://e-trade-shop.vercel.app/")
+@CrossOrigin(origins = "https://e-trade-shop.vercel.app")
 public class CartController {
 
     @Autowired

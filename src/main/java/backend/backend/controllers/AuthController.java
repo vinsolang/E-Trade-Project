@@ -17,7 +17,7 @@ import backend.backend.service.AuthService;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "https://e-trade-shop.vercel.app/") // React frontend
+@CrossOrigin(origins = "https://e-trade-shop.vercel.app") // React frontend
 public class AuthController {
 
     @Autowired

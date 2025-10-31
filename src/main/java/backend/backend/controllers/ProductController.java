@@ -20,7 +20,7 @@ import backend.backend.repository.ProductRepository;
 
 @RestController
 @RequestMapping("/api/admin/products")
-@CrossOrigin(origins = "https://e-trade-shop.vercel.app/") // allow React dev server
+@CrossOrigin(origins = "https://e-trade-shop.vercel.app") // allow React dev server
 public class ProductController {
 
     private final ProductRepository repo;

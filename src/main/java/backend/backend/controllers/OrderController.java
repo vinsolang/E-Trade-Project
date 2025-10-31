@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/orders")
-@CrossOrigin(origins = "https://e-trade-shop.vercel.app/")
+@CrossOrigin(origins = "https://e-trade-shop.vercel.app")
 public class OrderController {
 
     @Autowired
